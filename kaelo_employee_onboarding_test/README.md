@@ -49,7 +49,9 @@ cd kaelo_employee_onboarding_test
 docker-compose up -d
 # In a browser, go to http://localhost:8069
 # Create database "test" and install "Kaelo Employee Onboarding"
+# If your module doesnt show up, go to settings menu, activate dev mode, and then go update your apps list
 # Navigate to Kaelo Onboarding > Import Staff, upload the CSV, and click Import.
+# Take a screenshot of your employees list and add it to the main directory when opening your PR
 ```
 
 ## Sample CSV (`sample_data/staff_list.csv`)
