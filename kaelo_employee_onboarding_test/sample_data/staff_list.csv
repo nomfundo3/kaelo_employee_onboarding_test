@@ -1,0 +1,7 @@
+full_name,id_number,date_of_birth,employee_number,email
+John Doe,8001015009087,01/01/1980,EMP001,john.doe@example.com
+Jane Smith,9002026009088,02/02/1990,EMP002,jane.smith@example.com
+,9003037009089,03/03/1990,EMP003,missing.name@example.com
+Bob Brown,,04/04/1985,EMP004,bob.brown@example.com
+Alice Green,9105058009081,05/05/3000,EMP005,alice.green@example.com
+Tom Tailor,9206069009082,06/06/1992,EMP001,tom.tailor@example.com
