@@ -22,7 +22,7 @@ You will work on an Odoo 17 Community instance (via Docker Compose). A minimal r
    - `employee_number`: Employee Number
    - `email`: Email Address
  
-   Create a view,action,menu item for this mddel
+   Create a view,action,menu item for this model
 
 2. **Import Function**  
    Implement a wizard (`employee.onboarding.import`) that reads `sample_data/staff_list.csv`:
