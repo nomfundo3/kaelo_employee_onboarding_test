@@ -1,1 +1,27 @@
+<odoo>
+    <record id="view_employee_onboarding_import_wizard" model="ir.ui.view">
+        <field name="name">employee.onboarding.import.form</field>
+        <field name="model">employee.onboarding.import</field>
+        <field name="arch" type="xml">
+            <form string="Import Staff List">
+                <group>
+                    <field name="file" filename="filename"/>
+                </group>
+                <footer>
+                    <button string="Import" type="object" name="action_import" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_employee_onboarding_import_wizard" model="ir.actions.act_window">
+        <field name="name">Import Staff</field>
+        <field name="res_model">employee.onboarding.import</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_employee_onboarding_import" name="Import Staff" parent="menu_employee_onboarding_root" action="action_employee_onboarding_import_wizard"/>
+</odoo>
 
